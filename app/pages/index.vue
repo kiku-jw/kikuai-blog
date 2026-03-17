@@ -1,7 +1,12 @@
 <script setup lang="ts">
-const { data: articles } = await useAsyncData('blog-list', () =>
-  queryCollection('content').where('path', 'LIKE', '/blog/%').order('date', 'DESC').all()
-)
+const { data: articles } = await useAsyncData('blog-list', async () => {
+  const items = await queryCollection('content').where('path', 'LIKE', '/blog/%').all()
+  return [...items].sort((a, b) => {
+    const left = a.date ? new Date(String(a.date)).getTime() : 0
+    const right = b.date ? new Date(String(b.date)).getTime() : 0
+    return right - left
+  })
+})
 </script>
 
 <template>
