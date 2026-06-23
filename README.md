@@ -21,3 +21,7 @@ pnpm dev
 
 - This repository is kept for continuity and reference.
 - The main portfolio surface lives on the GitHub profile and at [kikuai.dev](https://kikuai.dev).
+
+## License
+
+No open-source license is granted for blog text, images, drafts, or site materials unless a file says otherwise. See [LICENSE](LICENSE).
