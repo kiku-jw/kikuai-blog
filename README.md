@@ -1,14 +1,18 @@
 # KikuAI Blog
 
-Public source for KikuAI build notes, product posts, and development diary entries.
+Historical source for early KikuAI build notes, product posts, and development
+diary entries.
 
-> Maintenance mode: this repository remains public as a writing and publishing reference, but it is not a flagship project.
+> **Archived:** current articles are published at
+> [kikuai.dev/blog](https://kikuai.dev/blog/). This repository preserves the
+> original frontend and early entries for stable links and history; it no
+> longer receives publishing updates.
 
 ## What This Repo Contains
 
-- a Nuxt-based blog front end
-- Markdown content for development notes and build diary posts
-- the public-facing writing surface behind KikuAI blog experiments
+- the original Nuxt-based blog frontend
+- Markdown content for early development notes and build diary posts
+- historical context for the first KikuAI publishing experiments
 
 ## Local Development
 
@@ -17,10 +21,10 @@ pnpm install
 pnpm dev
 ```
 
-## Notes
+## Canonical Surface
 
-- This repository is kept for continuity and reference.
-- The main portfolio surface lives on the GitHub profile and at [kikuai.dev](https://kikuai.dev).
+Use [kikuai.dev/blog](https://kikuai.dev/blog/) for current writing. The files
+in this repository remain available as historical source material.
 
 ## License
 
